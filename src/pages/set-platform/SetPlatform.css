@@ -1,0 +1,61 @@
+.info
+  width: 900px
+  margin: auto
+  margin-top: 30px
+.info-flex
+  display: flex
+  justify-content: space-around
+.dialog-footer
+  text-align: center
+.el-upload-dragger .el-icon-upload {
+    margin: 10px 0 10px
+  }
+.avatar-uploader >>> .el-upload-dragger
+  width 150px
+  height 150px
+.avatar-uploader >>> .el-upload--picture-card
+  width 150px
+  height 150px
+  border none
+  line-height: 20px
+.avatar-uploader
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  margin auto
+.avatar-uploader .el-upload
+  // border: 1px dashed #d9d9d9;
+  border-radius: 6px
+  cursor: pointer
+  position: relative
+  overflow: hidden
+.avatar-uploader .el-upload:hover
+  border-color: #409EFF
+.avatar-uploader-icon
+  font-size: 28px
+  color: #8c939d
+  width: 150px
+  height: 150px
+  line-height: 150px
+  text-align: center
+.avatar
+  width: 150px
+  height: 150px
+  display: block
+.cropper-content .show-preview .preview
+  margin-left: 0
+.img-btn
+    position absolute
+    top 0px
+    left 0px
+    width 100%
+    height 100%
+    line-height 150px
+    font-size 20px
+    background rgba(0,0,0,0.5)
+    color #fff
+    opacity: 0
+    span
+      margin 0 10px
+  .img-btn:hover
+    opacity: 1

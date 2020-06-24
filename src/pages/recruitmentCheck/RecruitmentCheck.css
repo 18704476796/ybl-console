@@ -1,0 +1,71 @@
+.box >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.box >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.box >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.box >>> .el-switch__label.is-active
+  display: block
+.box >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important
+.box >>> .el-drawer__header
+  margin-bottom 0
+.drawerBox >>> .el-drawer, .drawerBox >>> .ltr
+  overflow scroll
+.box >>> .el-drawer__header
+  margin-bottom 0
+  padding 0 20px
+  padding-top 20px
+.box >>> .el-drawer__wrapper
+  overflow-y scroll
+.tatWapper
+  padding 20px
+  .talentTitle
+    margin-bottom 20px
+  .detailTables
+    display flex
+    height 320px
+    margin-bottom 30px
+    .detPhoto
+      width 200px
+      text-align center
+      box-sizing border-box
+      div
+        width 100%
+        height 190px
+        padding 20px
+        box-sizing border-box
+        img
+          width 100%
+          height 100%
+      .tatStutas
+        color #FFFFFF
+        background #409eff
+        width auto
+        border-radius 10px
+        padding 5px 10px
+        line-height 30px
+    .detInfo
+      flex 1
+      .tatList
+        display flex
+        line-height 40px
+        .teaSpan
+          width 120px
+          padding 0 10px
+        .teaCon
+          flex 1
+          padding 0 10px
+.tjInfo
+  display flex
+  line-height 40px
+  width 900px
+  .infoItem
+    flex 1
+    text-align center

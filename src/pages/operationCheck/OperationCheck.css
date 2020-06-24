@@ -1,0 +1,147 @@
+.box >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.box >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.box >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.box >>> .el-switch__label.is-active
+  display: block
+.box >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important
+.drawerBox >>> .el-switch__label
+  position: absolute
+  display: none
+  color: #fff
+  left: -7px/*打开时文字位置设置*/
+.drawerBox >>> .el-switch__label--right
+  z-index: 1
+  right: 0px /*关闭时文字位置设置*/
+.drawerBox >>> .el-switch__label--left
+  z-index: 1
+  left: 19px /*显示文字*/
+  margin-right: 0px
+.drawerBox >>> .el-switch__label.is-active
+  display: block
+.drawerBox >>> .el-switch .el-switch__core, .el-switch .el-switch__label
+  width: 50px !important
+ .drawerBox >>> .el-input--suffix .el-input__inner
+    padding-right: 38px
+.checkTable
+  div
+    width 100%
+    display flex
+    min-height 30px
+  label
+    width 120px
+    height auto
+    line-height 35px
+    text-align center
+  span
+    padding 5px
+    line-height 30px
+    img
+      max-width 220px
+      max-height 130px
+      transform: scale(1)        /*图片原始大小1倍*/
+      transition: all ease 0.5s  /*图片放大所用时间*/
+    img.active
+     transform: scale(2.5) /*图片需要放大3倍*/
+     position: absolute /*是相对于前面的容器定位的，此处要放大的图片，不能使用position：relative；以及float，否则会导致z-index无效*/
+     z-index: 100
+.checkTable>>>.imgDiv
+  height 140px
+  line-height 140px
+.checkButton
+  margin-top 20px
+  text-align center
+.form-wapper
+  display: flex
+  justify-content: space-around
+.drawerBox>>>.el-form-item
+  line-height 16px
+.border-wapper
+  display: flex
+  justify-content: space-between
+  .checkTable
+    width 50%
+.detailTitle
+  text-align: center
+  font-size 16px
+  margin-bottom 20px
+.detailText
+  line-height: 20px
+.detailText>>>img
+  max-width 100%
+.drawerBox >>> .editor
+  width 800px
+  margin-left 0
+.drawerBox >>> .el-drawer, .drawerBox >>> .ltr
+  overflow scroll
+.timeTip
+  color red
+  margin-left 81px
+  margin-top -20px
+.drawerBox >>> .text
+  min-height 200px
+.el-upload-dragger .el-icon-upload
+  margin: 10px 0 10px
+.avatar-uploader >>> .el-upload-dragger
+  width 300px
+  height 120px
+.avatar-uploader >>> .el-upload--picture-card
+  width 300px
+  height 120px
+  border none
+  line-height: 20px
+.tips
+  border #eee dashed 2px
+  height 126px
+  font-size 14px
+  line-height 20px
+  border-radius 6px
+  margin auto
+  padding 10px
+.avatar-uploader
+  width 300px
+  height 120px
+  cursor pointer
+  margin auto
+.avatar-uploader .el-upload
+  border-radius: 6px
+  cursor: pointer
+  position: relative
+  overflow: hidden
+.avatar-uploader .el-upload:hover
+  border-color: #409EFF
+.avatar-uploader-icon
+  font-size: 28px
+  color: #8c939d
+  width: 300px
+  height: 120px
+  line-height: 120px
+  text-align: center
+.avatar
+  width: 300px
+  height: 120px
+  display: block
+.img-btn
+  position absolute
+  top 0px
+  left 0px
+  width 100%
+  height 100%
+  line-height 120px
+  font-size 20px
+  background rgba(0,0,0,0.5)
+  color #fff
+  opacity: 0
+  span
+    margin 0 10px
+.img-btn:hover
+  opacity: 1
